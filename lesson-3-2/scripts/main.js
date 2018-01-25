@@ -42,9 +42,12 @@ require([
 
     var ptGraphic = new Graphic ({
       geometry: pt,
-      symbol: sym
+      symbol: sym,
+      popupTemplate: {
+        title: "Population in " + home.city + ", " + home.state,
+        content: home.city + ", " + home.state + " is located in the county of " + home.county + ", " + " and has a population of " + home.population + "." 
+      }
     });
 
     view.graphics.add(ptGraphic);
-
 });
