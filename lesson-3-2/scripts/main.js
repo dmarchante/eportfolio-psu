@@ -3,9 +3,9 @@ require([
     "esri/views/MapView",
     "esri/geometry/Point",
     "esri/symbols/SimpleMarkerSymbol",
+  ], function(Map, MapView, Point, SimpleMarkerSymbol, Graphic) {
     "esri/Graphic",
     "dojo/domReady!"
-  ], function(Map, MapView, Point, SimpleMarkerSymbol, Graphic) {
 
     var home = {
       city: 'Naples',
