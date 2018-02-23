@@ -1,30 +1,14 @@
 require([
   "esri/Map",
   "esri/views/SceneView",
-  "esri/tasks/Locator",
-  "esri/widgets/Search",
-  "esri/Graphic",
   "esri/layers/FeatureLayer",
-  "esri/renderers/SimpleRenderer",
-  "esri/symbols/SimpleMarkerSymbol",
-  "esri/symbols/SimpleFillSymbol",
   "esri/renderers/UniqueValueRenderer",
-  "esri/layers/GraphicsLayer",
-  "esri/tasks/support/Query",
   "dojo/domReady!"
 ], function (
   Map,
   SceneView,
-  Locator,
-  Search,
-  Graphic,
   FeatureLayer,
-  SimpleRenderer,
-  SimpleMarkerSymbol,
-  SimpleFillSymbol,
   UniqueValueRenderer,
-  GraphicsLayer,
-  Query
 ) {
 
   let stateId;
