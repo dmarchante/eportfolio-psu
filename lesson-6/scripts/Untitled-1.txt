@@ -1,0 +1,26 @@
+  var fuelTypeRenderer = {
+    type: "unique-value",
+    field: "Fuel_Type_Code",
+    defaultSymbol: {
+      type: "simple-fill"
+    }
+  };
+
+
+  fuelTypeRenderer.addUniqueValueInfo({
+    value: "Electric",
+    symbol: {
+      type: "simple-fill",
+      color: "blue"
+    }
+  });
+
+
+
+  var featureLayer = new FeatureLayer({
+  portalItem: {
+       id:  "3e833955c9b9410485afb723baca4fbe"
+    }
+  });
+  
+  map.add(featureLayer);
