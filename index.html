@@ -4,74 +4,45 @@
 <head>
     <meta http-equiv="content-type" content="text/html; charset=utf-8" />
     <link rel="stylesheet" href="styles/main.css"></link>
+    <link rel="stylesheet" href="styles/reset.css"></link>
     <title>ePortfolio</title>
 </head>
 
-<body class="wrapper">
-    <div>
-        <a href="http://pennstategis.maps.arcgis.com/home/webmap/viewer.html?webmap=5fb6e516af4249d88d5d92f478901e10">Lesson 1</a>
-        <div>
-            <p>First lesson in course where we created a map from a template on ArcGIS Online.</p>
-        </div>
-    </div>
-    <div>
-        <a href="lesson-2/index.html">Lesson 2</a>
-        <div>
-            <p>Recreated a PDF document utilizing XHTML and CSS.</p>
-        </div>
-    </div>
-    <div>
-        <a href="lesson-3-1/index.html">Lesson 3-1</a>
-        <div>
-            <p>Map showing my hometown Naples, FL.</p>
-        </div>
-    </div>
-    <div>
-        <a href="lesson-3-2/index.html">Lesson 3-2</a>
-        <div>
-            <p>I had a hard time with the PopupTemplate, but it turned out that I was overthinking it and was getting too complicated. Personally, I am not a huge fan of the ESRI documentation, but we just have to get used to how they do their documentation. As a side note Moment JS has excellent documentation. A link for reference: <a href="https://momentjs.com/docs/">MomentJS Documentation</a></p>
-        </div>
-    </div>
-    <div>
-        <a href="hello_map/index.html">Hello Map</a>
-        <div>
-            <p>A map excercise during one of our lessons.</p>
-        </div>
-    </div>
-    <div>
-        <a href="hello_map-3d/index.html">Hello Map 3D</a>
-        <div>
-            <p>Another map excercise during one of our lessons, but this one is 3D.</p>
-        </div>
-    </div>
-    <div>
-        <a href="jen_and_barry_2d/index.html">Jen and Barry 2D</a>
-        <div>
-            <p>...</p>
-        </div>
-    </div>
-    <div>
-        <a href="jen_and_barry_3d/index.html">Jen and Barry 3D</a>
-        <div>
-            <p>...</p>
-        </div>
-        <div>
-            <a href="lesson-5/index.html">Lesson 5 Florida Counties Demographics</a>
-            <div>
-                <p>I had fun with this project as it was an application of the different tools we have been learning throughout the course. I learned that the hardest part is getting started, but after you get started its important to play around with the API and the code to internalize the toolset. However, there is a lot to uncover when it comes to visualizing data from the API. This lesson drove home the concept of how to implement pop-ups effectively. Initially, I was quite confused about the visualization techniques, and frankly I was intimidated. When I started to work with the tools and experimenting it gradually became easier. I ended up using circle for population data to differentiate form the typical polygon convention for county data. For me the biggest thing I learned that it is important to get familiar with the documentation, also if you can take from examples of work that has been done previously that is like what you are trying to achieve utilize it and adapt it. For work I will probably start creating templates for the most commonly used visualizations, so I can easily adapt them to different scenarios, learning from my previous statement regarding using previous examples.</p>
+<body >
+    <header>
+        <h3>ArcGIS Web Examples</h3>
+    </header>
+    <div class="wrapper">
+        <a href="lesson-2/index.html">
+            <div class="card">
+                PDF in XML
             </div>
-        </div>
-    </div>
-    <div>
-        <div>
-            <a href="lesson-6/index.html">Lesson 6 Fuel Type by State</a>
-            <div>
-                <p>This assignment was challenging, but the end proved rewarding. I had to create a map based on a given feature layer that rendered different fuel types by color. Additionally, I had to restrict the input by state with a given input utilizing JavaScript’s prompt method. My initial challenge was figuring out how to save the user input and pass the value into the required field so that only the state was shown. I went ahead and added some error handling as the user input was too open; however, it can be improved further. Now the biggest challenge was having the fuel data show only in the chosen state. Initially, I could only show the different fuel types by color, or the fuel in one state not defined by color. I tried to use the query option built into ArcGIS, but I realized I was overthinking the problem. Ultimately, I was able to render the fuel data by type, and limit the state using the definitionExpression. It took some time, but I finally got it. My main take away in this lesson is that perseverance is key when it comes to programming. I also think my problem-solving skills went up a level.</p>
+        </a>
+        <a href="lesson-3-1/index.html">
+            <div class="card">
+                Hometown Plot
             </div>
-        </div>
-        <div>
-            <a href="lesson-7/index.html">Lesson 7 Fuel Type by State</a>
-        </div>
+        </a>
+        <a href="hello_map-3d/index.html">
+            <div class="card">
+                Hello Map 3D
+            </div>
+        </a>
+        <a href="jen_and_barry_2d/index.html">
+            <div class="card">
+                Jen and Barry 2D
+            </div>
+        </a>
+        <a href="lesson-5/index.html">
+            <div class="card">
+                Florida Counties Demographics
+            </div>
+        </a>
+        <a href="lesson-7/index.html">
+            <div class="card">
+                Fuel Type by State
+            </div>
+        </a> 
     </div>
 </body>
 
